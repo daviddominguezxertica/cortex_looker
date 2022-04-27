@@ -8,12 +8,12 @@ project_name: "cortex_data_foundation"
 # }
 
 constant: CONNECTION_NAME {
-  value: "lucias-sap-bq"
+  value: "cortex_looker_new"
   export: override_required
 }
 
 constant: DATASET {
-  value: "SAP_REPORTING"
+  value: "CORTEX_REPORTING"
   export: override_required
 }
 
