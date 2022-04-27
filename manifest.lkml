@@ -17,6 +17,14 @@ constant: DATASET {
   export: override_required
 }
 
+constant: LANGUAGE {
+  value: "{{ _user_attributes['locale'] }}"
+}
+
+constant: sap_client_mandt {
+  value: "{{ _user_attributes['sap_client_mandt'] }}"
+}
+
 # constant: LANGUAGE {
 #   value: "{{ _user_attributes['locale'] }}"
 # }
