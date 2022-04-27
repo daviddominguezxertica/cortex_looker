@@ -13,7 +13,7 @@ constant: CONNECTION_NAME {
 }
 
 constant: DATASET {
-  value: "DS_REPORTING_CRISTIAN2"
+  value: "CORTEX_REPORTING"
   export: override_required
 }
 
